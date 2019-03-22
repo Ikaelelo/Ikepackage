@@ -44,7 +44,7 @@ def fibonacci(n):
         >> fibonacci(3)
         2
         """
-    def fibonacci(n):
+def fibonacci(n):
    """Recursive function to
    print Fibonacci sequence"""
    if n <= 1:
