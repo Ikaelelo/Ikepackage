@@ -44,17 +44,13 @@ def fibonacci(n):
         >> fibonacci(3)
         2
         """
-    if n<0:
-    # Input must be positive integer
-        print("Input must be positive integer")
-    # Return zero if input is zero
-    elif n==1:
-        return 0
-    # Return 1 if input is 1
-    elif n==2:
-        return 1
-    else:
-        return fibonacci(n-1)+fibonacci(n-2)
+    def fibonacci(n):
+   """Recursive function to
+   print Fibonacci sequence"""
+   if n <= 1:
+       return n
+   else:
+       return(fibonacci(n-1) + fibonacci(n-2))
 
 
 # Python program to display the factorial using recursive functions
